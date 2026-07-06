@@ -17,19 +17,11 @@ The project was designed to satisfy four main goals:
 
 ## Pipeline
 
-> Replace the placeholder below with your final pipeline image.
 
 <p align="center">
   <img src="docs/images/pipeline.png" alt="Focus Buddy end-to-end pipeline" width="900">
 </p>
 
-<!--
-Suggested file path:
-  docs/images/pipeline.png
-
-Suggested caption:
-  End-to-end processing pipeline from raw camera input to robot reaction.
--->
 
 ---
 
