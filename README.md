@@ -288,7 +288,7 @@ The pipeline is designed for continuous execution on modest hardware:
 - Reflective screens, occlusions, unusual phone orientations, and poor lighting can reduce reliability.
 - Hand proximity is heuristic: it uses landmark-to-bounding-box distance rather than a learned interaction model.
 - The system currently focuses on one visible phone.
-- The robot behavior is manually designed rather than learned from user feedback.
+- Only in simulation environment.
 
 ---
 
@@ -297,8 +297,8 @@ The pipeline is designed for continuous execution on modest hardware:
 - Add a calibration step for the desk area and camera viewpoint.
 - Track multiple phones or user-specific objects.
 - Add a cloud dashboard for session analytics.
-- Store long-term statistics in SQLite or a remote database.
-- Add MLOps monitoring for false positives, missed detections, and model drift.
+- Store long-term statistics in a remote database.
+- Error estimation.
 - Use a real Reachy Mini camera stream instead of an external webcam.
 - Make the robot gaze follow the phone using bounding-box displacement and camera-to-robot calibration.
 
